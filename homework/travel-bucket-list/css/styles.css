@@ -1,5 +1,10 @@
 .header {
-	background: rgb (9, 202, 159);
+	background: blue;
 	color: white;
+	text-align: center;
+}
+
+.headerss {
+	background: green;
 	text-align: center;
 }
