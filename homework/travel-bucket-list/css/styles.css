@@ -7,6 +7,7 @@
 
 h2 {
 	text-align: center;
+	word-spacing: 20px;
 }
 
 .first {
@@ -14,8 +15,6 @@ h2 {
 	text-align: center;
 }
 
-#font {
-	font-size: 20px;
 }
 .second {
 	background-color: rgb(194, 242, 227); 
@@ -29,5 +28,4 @@ h2 {
 
 p {
 	padding: 10px 10px;
-	text-align: left;
 }
