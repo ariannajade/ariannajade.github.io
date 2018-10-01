@@ -13,23 +13,15 @@ h2 {
 	background-color: rgb(196, 222, 252)
 }
 
-h3 {
+h3, h4, h5 {
 	text-align: center;
 
 }
 
 .second {
-	background-color: rgb(196, 222, 252) 
-}
-
-h4 {
-	text-align: center;
+	background-color: rgb(194, 242, 227) 
 }
 
 .third {
 	background-color: rgb(196, 222, 252)
-}
-
-h5 {
-	text-align: center;
 }
