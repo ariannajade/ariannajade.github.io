@@ -23,3 +23,7 @@ h2 {
 	background-color: rgb(196, 222, 252);
 	text-align: center;
 }
+
+p {
+	padding: 10px 10px;
+}
