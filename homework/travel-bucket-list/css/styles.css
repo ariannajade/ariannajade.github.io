@@ -10,17 +10,17 @@ h2 {
 }
 
 .first {
-	background-color: rgb(196, 222, 252);
+	background: rgb(196, 222, 252);
 	text-align: center;
 }
 
 .second {
-	background-color: rgb(194, 242, 227); 
+	background: rgb(194, 242, 227); 
 	text-align: center;
 }
 
 .third {
-	background-color: rgb(196, 222, 252);
+	background: rgb(196, 222, 252);
 	text-align: center;
 }
 
