@@ -13,6 +13,10 @@ h2 {
 	text-align: center;
 }
 
+.a {
+	word-spacing: 50px;
+}
+
 .first {
 	background: rgb(196, 222, 252);
 	text-align: center;
