@@ -1,3 +1,7 @@
+html {
+	font-family: helvetica;
+}
+
 .header {
 	background-color: rgb(9, 202, 159);
 	color: white;
