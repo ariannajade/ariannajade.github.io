@@ -21,9 +21,7 @@ h2 {
 .second {
 	background: rgb(194, 242, 227); 
 	text-align: center;
-	p {
-		text-align: left;
-	}
+
 }
 
 .third {
@@ -36,6 +34,6 @@ h2 {
 }
 
 footer	{
-	font-size: 100px;
+	font-size: 50px;
 	text-align: center;
 }
