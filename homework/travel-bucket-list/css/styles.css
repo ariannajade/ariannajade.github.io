@@ -18,9 +18,18 @@ h3 {
 
 }
 
-img.displayed	{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.second {
+	background-color: rgb(196, 222, 252) 
+}
 
+h4 {
+	text-align: center;
+}
+
+.third {
+	background-color: rgb(196, 222, 252)
+}
+
+h5 {
+	text-align: center;
 }
