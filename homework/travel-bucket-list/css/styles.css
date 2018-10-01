@@ -1,4 +1,4 @@
-html {
+.font {
 	font-family: helvetica;
 }
 
@@ -7,7 +7,7 @@ html {
 	color: white;
 	padding: 10px 5px;
 	text-align: center;
-}
+} 
 
 h2 {
 	text-align: center;
