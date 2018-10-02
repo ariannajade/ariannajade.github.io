@@ -23,11 +23,11 @@ h2 {
 	size: 15px;
 }
 
-nav {
+.nav {
 	color: #dddddd;
 }
 
-nav:hover {
+.nav:hover {
 	color: #000;
 }
 
