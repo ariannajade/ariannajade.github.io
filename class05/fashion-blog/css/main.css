@@ -1,0 +1,23 @@
+body {
+	color: #444444;
+	font-family: lato, sans-serif;
+	line-height: 1.5;
+	margin: 0;
+
+}
+
+.container {
+	width: 720px;
+    padding: 54px;
+    border-left: solid 6px #dddddd;
+
+}
+
+h1 {
+	color: #dd0000;
+}
+
+h2 {
+	color: #000;
+}
+
