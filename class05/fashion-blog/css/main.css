@@ -23,3 +23,19 @@ h2 {
 	size: 15px;
 }
 
+nav {
+	color: #dddddd;
+}
+
+nav:hover {
+	color: #000;
+}
+
+.article-date {
+	color: #cccccc;
+}
+
+.title {
+	color: #000;
+
+}
