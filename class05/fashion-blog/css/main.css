@@ -16,16 +16,19 @@ body {
 .header {
 	color: #dd0000;
 	size: 25px;
+	text-align: center;
 }
 
-h2 {
+.sub-header {
 	color: #000;
 	size: 15px;
+	text-align: center;
 }
 
 .nav a {
 	color: #dddddd;
 	margin-bottom: 50px;
+	text-align: center;
 }
 
 .nav:hover {
