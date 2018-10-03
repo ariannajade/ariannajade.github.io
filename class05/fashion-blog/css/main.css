@@ -1,8 +1,10 @@
 body {
 	color: #444444;
-	font-family: lato, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
+	font-size: 18px;
 	line-height: 1.5;
 	margin: 0;
+	padding: 0;
 
 }
 
@@ -13,9 +15,9 @@ body {
 
 }
 
-.header {
+.header h2 {
 	color: #dd0000;
-	size: 25px;
+	font-size: 25px;
 	text-align: center;
 }
 
@@ -57,6 +59,9 @@ body {
 	links	
 }
 
-# {
+img {
+	margin: 10px;
+	width: 100%;
+}
 	
 }
