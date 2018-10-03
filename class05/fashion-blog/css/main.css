@@ -25,10 +25,14 @@ body {
 	text-align: center;
 }
 
+.nav {
+	text-align: center;
+}
+
 .nav a {
 	color: #dddddd;
 	margin-bottom: 50px;
-	text-align: center;
+	
 }
 
 .nav:hover {
@@ -51,4 +55,8 @@ body {
 
 .footer {
 	links	
+}
+
+# {
+	
 }
