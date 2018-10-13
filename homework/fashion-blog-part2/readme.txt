@@ -17,13 +17,13 @@ High-level (body)text properties:
     line-height: 1.5
 
 Anchors:
-    color: #ddo
+    color: #dd
 
 Anchors hover:
     color: #a00
 
 "Sartre's List":
-    color: #dd0
+    color: #d00
     font-size: 54px
     font-weight: 300
 
