@@ -18,6 +18,7 @@ header {
   background-color: #000;
   border-bottom: 5px solid yellow;
   height: 100px;
+  padding: 10px 10px;
   width: 100%;
 }
 
@@ -53,12 +54,18 @@ a:hover {
 
 nav {
   float: right;
-  padding: 20px 20px;
+  padding: 25px 25px;
+}
+
+nav a {
+  padding: 10px;
 }
 
 .tagline {
   background-color: #C6C6C6;
   font-family: Merriweather;
+  font-size: 1.3em;
+  font-style: italic;
   padding: 20px;
   text-align: center;
 }
@@ -121,12 +128,13 @@ button {
   outline: 1px solid black;
   overflow: auto;
   margin: 0;
+  padding: 0px 30px;
   width: 100%;
 }
 
 .card {
   float: left;
-  padding: 40px;
+  padding: 40px 40px;
   width: calc(100% / 3);
 }
 
@@ -138,4 +146,10 @@ button {
     width: 100%;
     float: none;
   }
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
