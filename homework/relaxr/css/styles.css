@@ -15,7 +15,10 @@ header, h1, h2 {
 }
 
 header {
+	align-items: center;
 	background-color: #033048;
+	display: flex;
+	justify-content: space-between;
 	overflow: auto;
 }
 
@@ -23,4 +26,33 @@ h1 {
 	color: #fff;
 	font-size: 48px;
 	font-weight: 800;
+}
+
+a:link {
+	color: #f9e42e;
+	text-decoration: none;
+
+}
+
+nav {
+	align-content: flex-end;
+}
+
+article {
+	border-bottom: 1px solid #043049;
+}
+
+h2 {
+	color: #043049;
+}
+
+.body {
+	color: #606161;
+  	font-size: 24px;
+  	line-height: 1.333;
+}
+
+.readmore {
+	color: #043049;
+  	font-weight: 600;
 }
