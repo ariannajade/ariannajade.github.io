@@ -1,0 +1,26 @@
+/* Box Model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  	background-color: #f0efef;
+  	font-family: Open Sans, sans-serif;
+  	font-weight: 300;
+  	margin: 0;
+}
+
+header, h1, h2 {
+	margin: 0;
+}
+
+header {
+	background-color: #033048;
+	overflow: auto;
+}
+
+h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 800;
+}
