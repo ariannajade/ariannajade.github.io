@@ -11,7 +11,6 @@ body {
 }
 
 .container {
-	
 }
 
 header, h1, h2 {
@@ -45,18 +44,24 @@ nav {
 	align-content: flex-end;
 }
 
+section {
+	padding-top: 40px;
+}
+
 article {
 	border-bottom: 1px solid #043049;
 }
 
 h2 {
 	color: #043049;
+	width: 85%;
 }
 
 .body {
 	color: #606161;
   	font-size: 24px;
   	line-height: 1.333;
+  	width: 85%;
 }
 
 .readmore {
@@ -64,6 +69,7 @@ h2 {
   	font-weight: 600;
   	text-decoration: none;
 }
+
 
 h3 {
 	color: #043049;
@@ -73,6 +79,7 @@ h3 {
 
 .sidebar-links {
 	color: #043049;
+	display: flex;
   	font-size: 24px;
   	text-decoration: none;
 }
@@ -102,24 +109,19 @@ button {
 	text-align: center;
 }
 
-section {
+.flexbox-container {
 	display: flex;
-	flex-direction: column;
-
+	padding: 40px;
+	width: 70%;
 }
 
-article {
-	flex-direction: column;	
-}
+
 
 .readmore {
 	text-align: right;
 }
 
-.sidebar {
-	display: flex;
-	flex-direction: column;
-}
+
 
 footer {
 	background-color: black;
@@ -131,6 +133,12 @@ h4 {
   	font-size: 48px;
   	font-weight: 800;
   	text-align: center;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
 }
 
 .copyright {
