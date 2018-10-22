@@ -111,17 +111,10 @@ button {
 
 .flexbox-container {
 	display: flex;
+	margin: auto;
 	padding: 40px;
 	width: 70%;
 }
-
-
-
-.readmore {
-	text-align: right;
-}
-
-
 
 footer {
 	background-color: black;
@@ -141,9 +134,27 @@ h4 {
 	padding-bottom: 40px;
 }
 
+.social-icons {
+	padding: 20px;
+}
+
 .copyright {
 	color: #fff;
   	font-size: 18px;
   	font-weight: 600;
   	text-align: center;
 }
+
+p.body::first-letter {
+	font-size: 250%;
+	font-weight: bold;
+	
+
+}
+
+
+
+@media only screen and (max-width: 600px)
+	nav {
+		display: none;
+	}
