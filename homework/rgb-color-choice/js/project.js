@@ -20,7 +20,8 @@ function changeColor () {
   var rgbValue = 'rgb(' + red + ',' + green + ',' + blue + ')'
 
 document.querySelector('#wrapper').style.background = rgbValue
-document.querySelector('button').onclick = changeColor
 document.querySelector('#colorful-text').innerHTML = rgbValue
 
 }
+
+document.querySelector('button').onclick = changeColor
