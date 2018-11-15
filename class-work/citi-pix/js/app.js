@@ -13,3 +13,14 @@
 
   Bonus: Apply the concept of $(this) - think about what element is causing .change() to fire
 */
+
+$('#city-type').change(handleChange)
+
+function handleChange() {
+  // var city = $('#city-type').val()
+  var city = $(this).val()
+  $('body').removeClass() 
+  $('body').addClass(city)
+}
+
+$(this).change()
