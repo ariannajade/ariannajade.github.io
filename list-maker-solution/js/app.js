@@ -22,53 +22,36 @@
 
 */
 
+
+// event handler for the #clickme button
 $('#clickme').click(handleClick)
 
-function handleClick () {
-  var newItem = $('#item').val()
-  appendItem (newItem) 
+function handleClick() {
+	// create a variable, newItem, that stores the user's input
+	var newItem = $('#item').val()
 
+	// if the user has not entered a value, trigger alert
+	if (newItem.length === 0) {
+		alert('You must enter a value!')
+	} else {
+		// call the appendItem function and pass it newItem as a variable
+		appendItem(newItem)
+
+		// focuses on the <input> so user doesn't have to click back into it, also sets the value of the input to an empty string (clearing it)
+		$('#item')
+			.focus()
+			.val('')
+	}
 }
 
-
-
-function appendItem (item) {
-  $('#list').append('<li>' + item + '</li>')
-
+// appends a new <li> element containing the user's text to #list
+function appendItem(item) {
+	$('#list').append('<li>' + item + '</li>')
 }
 
-$('li').click(disappear)
-
-function disappear () {
-  
-  $(this).remove()
-}
-
-/*
-
-$('#clickme').click(appendItem)
-
-1. Get user input
-function appendItem() {
-  var newItem = $('#item').val()
-  var listItem = '<li>' + newItem + '</li>'
-
-2. Output a new list item
-
-$('#list').append(listItem)
-
-3. Return focus to <input id="item" />
-
-$('#item').focus()
-
-4. CLear <input id="item" /> of any input
-
-$('#item').val('')
-}
-
-Legendary bonus: Remove dynamically created <li>'s
+// removes dynamically-created <li> elements on click
 $(document).on('click', 'li', handleRemove)
 
 function handleRemove() {
-  $(this).remove()
+	$(this).remove()
 }
