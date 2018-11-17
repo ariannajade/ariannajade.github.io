@@ -95,6 +95,7 @@ section.card-wrapper {
 	padding: 50px;
 }
 
+
 div.about {
 	border-bottom: 10px black solid;
 }
@@ -116,6 +117,10 @@ div.about {
 .flexbox-container img {
 	height: 500px;
 	width: 500px;
+}
+
+div.flexbox-container {
+	border-bottom: 10px black solid;
 }
 
 
