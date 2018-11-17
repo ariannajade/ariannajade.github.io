@@ -6,8 +6,18 @@ body, header, h1 {
 	margin: 0;
 }
 
+body {
+	background-image: url('../img/vilogoblackbg.jpg');
+	background-repeat: repeat;
+}
+
+.container {
+	display: grid;
+}
+
 header {
 	align-items: center;
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	overflow: auto;
@@ -16,7 +26,10 @@ header {
 }
 
 h1 img {
+	display: block;
 	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
 	width: 50%;
 }
 
@@ -66,15 +79,44 @@ nav.shift a:hover:after {
     height: 100%;
 }
 
+header {
+	height: 100%;
+	display: grid;
+	grid-gap: 3px;
+	grid-template-columns: 3fr 2fr 3fr;
+    /*grid-template-rows: auto;*/
+	grid-template-areas: "x y z";
+}
+
+h1 {
+	grid-area: y; 	
+}
+
+.nav-left {
+	grid-area: x;
+}
+
+.nav-right {
+	grid-area: z;
+	text-align: right;
+}
+
+.dropdown {
+	display: none;
+}
+
 .banner img {
 	width: 100%;
-}
+} 
 
 .card-wrapper {
 	background-color: white;
 	margin: 0;
+	margin-bottom: 15px;
 	overflow: auto;
 	padding: 30px;
+	position: relative;
+	top: -10px;
 	width: 100%;
 
 }
@@ -86,18 +128,16 @@ nav.shift a:hover:after {
 	width: calc(100% / 3);
 }
 
-section.card-wrapper {
-	border-bottom: 10px black solid;
-}
-
 .about {
+	background-color: white;
+	margin-bottom: 15px;
 	text-align: center;
 	padding: 50px;
 }
 
+.about-text {
+	padding: 50px;
 
-div.about {
-	border-bottom: 10px black solid;
 }
 
 .flexbox {
@@ -108,7 +148,9 @@ div.about {
 }
 
 .flexbox-container {
+	background-color: white;
 	margin: 0;
+	margin-bottom: 15px;
 	overflow: auto;
 	padding: 30px;
 	width: 100%;
@@ -119,10 +161,38 @@ div.about {
 	width: 500px;
 }
 
-div.flexbox-container {
+/* div.flexbox-container {
 	border-bottom: 10px black solid;
+} */
+
+.newsletter {
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	text-align: center;
 }
 
+button {
+	background: black;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+}
+
+footer {
+	background-color: black;
+	padding: 20px;
+}
+
+.copyright {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
 
 /* 
 .flexbox-container {
