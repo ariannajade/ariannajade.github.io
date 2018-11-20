@@ -92,11 +92,50 @@ header {
 
 h1 {
 	grid-area: y; 	
+	margin-bottom: 20px;
 }
 
-.topnav {
-	grid-area: a;
+.searchicon {
+	margin-bottom: 20px;
+	margin-top: -20px;
 	padding: 10px;
+}
+
+.search {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); 
+}
+	/* grid-area: b;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	padding: 10px;
+} */
+
+/* #searchbar {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); 
+} */
+
+.socialicons {
+	grid-area: c;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	padding: 10px;
+	text-align: right;
 }
 
 .nav-left {
@@ -117,9 +156,12 @@ h1 {
 } 
 
 input {
-	background-color: black;
-	color: white;
-	/* overflow: hidden; */
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
 }
 
 .card-wrapper {
