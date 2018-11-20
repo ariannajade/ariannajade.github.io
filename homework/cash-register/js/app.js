@@ -31,7 +31,7 @@ function handleSubmit(event) {
 
   total = total + newEntry
 
-  $('#total').html(total)
+  $('#total').html('$' + total)
   $('#entry')[0].reset() 
 
 }
