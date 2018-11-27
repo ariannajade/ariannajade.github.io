@@ -48,7 +48,6 @@ nav a:before {
 nav a:hover {
 	color: #555;
 }
-
 nav.shift a {
 	position:relative;
 	z-index: 1;
@@ -112,6 +111,7 @@ h1 {
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9); 
 }
+
 	/* grid-area: b;
 	margin-bottom: 20px;
 	margin-top: -20px;
@@ -138,6 +138,11 @@ h1 {
 	text-align: right;
 }
 
+.socialicons i {
+	font-size: 25px;
+
+}
+
 .nav-left {
 	grid-area: x;
 }
@@ -149,6 +154,7 @@ h1 {
 
 .dropdown {
 	background-color: black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	/* display: none; */
 	min-width: 160px;
 	padding: 12px 16px;
@@ -158,16 +164,60 @@ h1 {
 
 .dropdown a {
 	color: white;
-	/* display: grid; */
-	display: flex;
-	flex-direction: column;
+	display: block;
 	padding: 5px;
+	text-align: left;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
-.banner img {
-	width: 100%;
+/* #vi-lab, .dropdown a {
+	display: block;
+} */
+
+span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+span:before {
+  left: -2.5px;
+}
+span:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.banner {
+	background-image: url('../img/banner1.png');
+	background-position: 110px -400px;
+	background-size: cover;
+    height: 500px;
+    margin-bottom: 30px;
 } 
 
 input {
@@ -182,11 +232,11 @@ input {
 .card-wrapper {
 	background-color: white;
 	margin: 0;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	overflow: auto;
 	padding: 30px;
 	position: relative;
-	top: -10px;
+	/* top: -10px; */
 	width: 100%;
 
 }
@@ -198,15 +248,54 @@ input {
 	width: calc(100% / 3);
 }
 
+#articleone {
+	background-image: url('../img/articleone.jpg');
+	background-position: 0px 0px;
+	background-size: cover;
+	height: 400px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#articletwo {
+	background-image: url('../img/articletwo.jpg');
+	background-position: -130px 0px;
+	background-size: cover;
+	height: 400px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#articlethree {
+	background-image: url('../img/articlethree.jpg');
+	background-position: -100px 0px;
+	background-size: cover;
+	height: 400px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.articleimg {
+	height: 70%;
+	width: 70%;
+}
+
+.articlebutton {
+	margin-top: -15px;
+}
+
 .about {
 	background-color: white;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 }
 
 .about-text {
-	padding: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: -10px;
+	padding: 25px;
 
 }
 
@@ -220,7 +309,7 @@ input {
 .flexbox-container {
 	background-color: white;
 	margin: 0;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	overflow: auto;
 	padding: 30px;
 	width: 100%;
@@ -250,6 +339,10 @@ button {
 	font-size: 20px;
 	font-weight: 600;
 	padding: 10px;
+}
+
+.fullfooter {
+	background-image: linear-gradient(black, white);
 }
 
 footer {
