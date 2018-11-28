@@ -15,8 +15,8 @@ function() {
 /* $('.searchicon').click(handleClick) 
 
 function handleClick() {
-	$('.search').
-} */
+	$('.search').show()
+} */ 
 
 $(document).ready(function() {
 	$('button').hover(function(){

@@ -102,18 +102,17 @@ h1 {
 
 .searchicon {
 	cursor: pointer;
-	grid-area: b;
+	grid-area: a;
 	margin-bottom: 20px;
 	margin-top: -20px;
 	padding: 10px;
 }
 
 #searchbar {
-	margin-top: -50px;
-	text-align: left;
+	display: none;
 }
 
-/* .search {
+ /* .search {
   height: 100%;
   width: 100%; 
   display: none;
@@ -121,27 +120,24 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  /* background-color: rgb(0,0,0);
+  background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
 } */
 
 
 /* #searchbar {
-  grid-area: a;
-  height: 100%;
-  width: 100%;
-  display: none;
-  left: 0;
-  margin-bottom: 20px;
-   margin-top: -20px; 
-  padding: 10px;
-  position: fixed;
-  text-align: right;
-  top: 0; 
-  z-index: 1;
-   background-color: rgb(0,0,0);
+  	width: 100%;
+  	/*left: 0;*/
+  	/* margin-bottom: 20px;
+	margin-top: -20px; 
+    padding: 10px; */ 
+  /*position: fixed;
+  text-align: right;*/
+  /*top: 0; */
+  /*z-index: 1;*/
+   /*background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9); 
-}  */
+} */
 
 .socialicons {
 	grid-area: c;
@@ -234,7 +230,7 @@ span:hover:after {
 } */
 
 .banner {
-	background-image: url('../img/banner1.png');
+	background-image: url('../img/banner.jpg');
 	background-position: 110px -400px;
 	background-size: cover;
     height: 500px;
@@ -313,8 +309,10 @@ h2 {
 }
 
 p {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
 .readmore {
