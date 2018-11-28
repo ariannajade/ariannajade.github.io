@@ -230,12 +230,12 @@ span:hover:after {
 } */
 
 .banner {
-	background-image: url('../img/banner.jpg');
-	background-position: 110px -400px;
-	background-size: cover;
+    background-image: url(../img/banner.jpg);
+    background-position: 57px -405px;
+    background-size: cover;
     height: 500px;
     margin-bottom: 30px;
-} 
+}
 
 input {
     /* grid-area: a; */
