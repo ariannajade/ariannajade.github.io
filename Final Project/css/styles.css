@@ -248,6 +248,10 @@ input {
 	width: calc(100% / 3);
 }
 
+h2 {
+	text-transform: uppercase;
+}
+
 #articleone {
 	background-image: url('../img/articleone.jpg');
 	background-position: 0px 0px;
@@ -281,7 +285,14 @@ input {
 }
 
 .articlebutton {
+	/* background-image: linear-gradient (white, red); */
 	margin-top: -15px;
+}
+
+.readmore {
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .about {
@@ -311,7 +322,7 @@ input {
 	margin: 0;
 	margin-bottom: 30px;
 	overflow: auto;
-	padding: 30px;
+	padding: 30px 89px;
 	width: 100%;
 }
 
@@ -320,15 +331,23 @@ input {
 	width: 500px;
 }
 
+.tagline {
+	padding-top: 150px;
+	text-align
+}
+
 /* div.flexbox-container {
 	border-bottom: 10px black solid;
 } */
 
 .newsletter {
 	background-color: gray;
-	display: flex;
 	justify-content: space-between;
 	padding: 20px;
+	text-align: center;
+}
+
+.signup {
 	text-align: center;
 }
 
@@ -339,6 +358,7 @@ button {
 	font-size: 20px;
 	font-weight: 600;
 	padding: 10px;
+	text-transform: uppercase;
 }
 
 .fullfooter {
